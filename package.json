@@ -1,0 +1,38 @@
+{
+  "name": "alfred-copy-link",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "repository": "chengjianhua/alfred-copy-link",
+  "author": {
+    "name": "Jianhua Cheng",
+    "email": "w.chengjianhua@gmail.com",
+    "url": "https://github.com/chengjianhua"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.12.2"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
